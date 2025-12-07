@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Z0C7TNPPFH"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-Z0C7TNPPFH');
+    </script>
+
+
+
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Frederick Aguilar</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KJ2CTXDQ');</script>
+</head>
+
+<body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KJ2CTXDQ" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <header>
+        <div class="header-content">
+            <div class="profile-pic-container">
+                <img src="unnamed.png" alt="" class="profile-pic">
+            </div>
+            <h1>FREDERICK GABRIEL AGUILAR</h1>
+            <p class="subtitle">Ingeniero en Sistemas Computacionales</p>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#conocimientos">Conocimientos</a>
+        <a href="#formacion">Formación</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="experiencia" class="animated-section">
+            <h2>Experiencia</h2>
+            <div class="card">
+                <h3>Soporte Técnico</h3>
+                <p><strong>(Hardware, Software y Redes Básicas)</strong></p>
+                <ul>
+                    <li>Participación en proyectos académicos relacionados con la resolución de incidencias técnicas.
+                    </li>
+                    <li>Prácticas de configuración en entornos Windows y Linux.</li>
+                    <li>Administración inicial de dispositivos de red.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="conocimientos" class="animated-section">
+            <h2>Conocimientos</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Lenguajes de Programación</h3>
+                    <p>Python, Java, C, C++</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Bases de Datos</h3>
+                    <p>MySQL, SQL Server</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Sistemas Operativos</h3>
+                    <p>Windows, Linux</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Herramientas</h3>
+                    <p>Git, Visual Studio Code, PyCharm, Figma</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="formacion" class="animated-section">
+            <h2>Formación</h2>
+            <div class="card">
+                <h3>Ingeniería en Sistemas Computacionales</h3>
+                <p>Instituto Tecnológico Superior de Felipe Carrillo Puerto, Quintana Roo</p>
+                <p class="date">(2022-2026)</p>
+                <p>Formación orientada al soporte técnico de hardware y software, mantenimiento preventivo y correctivo
+                    de equipos de cómputo, instalación y configuración de sistemas operativos, así como fundamentos de
+                    redes básicas.</p>
+            </div>
+        </section>
+
+        <section id="habilidades" class="animated-section">
+            <h2>Habilidades</h2>
+            <ul class="skills-list">
+                <li>Trabajo en equipo</li>
+                <li>Adaptabilidad</li>
+                <li>Resolución de problemas</li>
+                <li>Comunicación efectiva</li>
+                <li>Aprendizaje continuo</li>
+                <li>Idiomas: Español (nativo), Inglés</li>
+            </ul>
+        </section>
+
+        <section id="contacto" class="animated-section">
+            <h2>Contacto</h2>
+            <p><strong>Teléfono:</strong> 983-700-9882</p>
+            <p><strong>Correo:</strong> frederickaguilar317@gmail.com</p>
+            <p><strong>Dirección:</strong> Ignacio Manuel Altamirano 2165, Jesús Martinez Ross, 77220 Felipe Carrillo
+                Puerto, Q.R.</p>
+            <p><strong>Información adicional:</strong> Licencia de conducir, Coche propio, Disponibilidad para viajar.
+            </p>
+        </section>
+    </main>
+
+    <button id="chatbot-toggle">Chat</button>
+
+    <div id="chatbot-container">
+        <div id="chatbot-header">
+            <h3>Asistente de Frederick</h3>
+            <span id="close-chatbot">X</span>
+        </div>
+        <div id="chatbot-body">
+            <div class="message bot-message">Hola, soy un asistente virtual. ¿Qué te gustaría saber sobre Frederick?
+                Puedes preguntar por su formación, conocimientos, habilidades o experiencia.</div>
+        </div>
+        <div id="chatbot-footer">
+            <input type="text" id="user-input" placeholder="Escribe tu pregunta...">
+            <button id="send-btn">Enviar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
